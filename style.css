@@ -1,0 +1,115 @@
+body{
+    height: max(100vh, max-content);
+    background: url('https://media.istockphoto.com/photos/decoration-twinkle-glitters-background-abstract-shiny-backdrop-with-picture-id1313832936?b=1&k=20&m=1313832936&s=170667a&w=0&h=0PcSvVrwaz2-Dlwbastise9n-FoHs3fWNzER2QDLSLI=');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row{
+    height: max-content;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+    background-color: #023b6d;
+}
+ul li:hover{
+   cursor: pointer;
+}
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col1{
+    padding: 40px 100px;
+}
+.col1 h1, .col1 p{
+    padding-left: 30px;
+}
+.search-box{
+    width: 50%;
+    min-width: 200px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.search{
+    position: absolute;
+    right: 5px;
+    height: 80%;
+    top: 10%;
+}
+.col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logistic-img{
+    margin: 20px 0;
+    width: 60%;
+    height: 60%;
+}
+.stats{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+.stat p{
+    padding-left: 0px;
+}
+.stat h3{
+    border-bottom: 2px solid #0d3eef;
+}
+footer{
+    background-color: #023b6d;
+    color: white;
+    padding: 20px 40px;
+    font-size: 0.8rem;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+footer ul li{
+    color: lightgray;
+}
+.footerCol h6, footer h5{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.social-icons img{
+    height: 2vw;
+    width: 2vw;
+    min-height: 15px;
+    min-width: 15px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+.social-icons:hover{
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .btn{
+	box-shadow: none !important
+}
+
+@media screen and (max-width: 996px) {
+    .logistic-img {
+      display: none;
+    }
+  }
